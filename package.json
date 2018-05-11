@@ -1,0 +1,16 @@
+{
+  "name": "mashiro",
+  "version": "1.0.0",
+  "description": "Mine <3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angel Mashiro",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "mysql": "^2.15.0",
+    "performance-now": "^2.1.0"
+  }
+}
