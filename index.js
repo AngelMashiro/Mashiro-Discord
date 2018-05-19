@@ -21,6 +21,7 @@ mashiro.on('ready', async() => {
 });
 
 mashiro.on('message', (message) => {
+    if (message.author.id === "145689417045114881") return;
     // Conversation started with Mashiro ♥
     if (message.content.toLowerCase().startsWith("mashiro")) {
         const conversation = require("./lib/conversation");
