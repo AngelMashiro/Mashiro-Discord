@@ -3,7 +3,7 @@ const fs = require('fs');
 const mashiro = new Discord.Client();
 const config = require('./config.json');
 
-mashiro.on('ready', async() => {
+mashiro.on('ready', () => {
     const presences = {
         'WATCHING' : 'Jules ♥',
         'PLAYING' : 'with Jules ♥',

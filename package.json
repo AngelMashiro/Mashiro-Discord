@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "forever start .",
-    "stop":  "forever stopall"
+    "stop": "forever stopall"
   },
   "author": "Angel Mashiro",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
+    "ffmpeg": "0.0.4",
     "mysql": "^2.15.0",
     "performance-now": "^2.1.0"
   }
