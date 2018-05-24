@@ -9,7 +9,7 @@ mashiro.on('ready', () => {
         'PLAYING' : 'with Jules ♥',
         'Listening': 'Jules ♥'
       }
-    
+
       setInterval(() => {
         const types = Object.keys(presences);
         const type = types[Math.floor(Math.random() * types.length)];
@@ -28,7 +28,6 @@ mashiro.on('message', (message) => {
         conversation.run(mashiro, message);
     }
 });
-
 
 process.on('unhandledRejection', err => {
     console.log("Caught unhandledRejection");
