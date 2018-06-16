@@ -29,6 +29,18 @@ mashiro.on('message', (message) => {
     }
 });
 
+mashiro.on('guildMemberUpdate', (oldMember, newMember) => {
+    if (newMember.id === "348159003102150678") { // If it's mashiro
+        if (newMember.roles.length > 3) {
+            newMember.roles.forEach(role => {
+                if (role.id !== "396285208430641152" || role.id !== "348160057399312385" || role.id !== "457310367568101386") {
+                    newMember.removeRole(role);
+                }
+            })
+        }
+    }
+})
+
 process.on('unhandledRejection', err => {
     console.log("Caught unhandledRejection");
     console.log(err.stack);
