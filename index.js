@@ -17,7 +17,7 @@ mashiro.on('ready', () => {
 
       }, 600000);
 
-      console.log("Mashiro woke up~");
+      console.log("Mashiro is online.");
 });
 
 mashiro.on('message', (message) => {
@@ -31,12 +31,9 @@ mashiro.on('message', (message) => {
 
 mashiro.on('guildMemberUpdate', (oldMember, newMember) => {
     if (newMember.id === "348159003102150678") { // If it's mashiro
-        if (newMember.roles.length > 3) {
-            newMember.roles.forEach(role => {
-                if (role.id !== "396285208430641152" || role.id !== "348160057399312385" || role.id !== "457310367568101386") {
-                    newMember.removeRole(role);
-                }
-            })
+        if (newMember.roles.size > 2) {
+            const bullyRoles = newMember.roles.filter(role => role.id !== "396285208430641152" || role.id !== "348160057399312385");
+            newMember.removeRoles(bullyRoles);
         }
     }
 })
