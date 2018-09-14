@@ -19,7 +19,7 @@ mashiro.on('ready', async () => {
 
     }, 600000);
 
-    const jules = await client.fetchMember(julesid);
+    const jules = await mashiro.fetchUser(julesid);
       
     if (jules)
         jules.send("Haiii, I'm back~");
