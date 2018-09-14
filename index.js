@@ -2,26 +2,32 @@ const Discord = require('discord.js');
 const fs = require('fs');
 const mashiro = new Discord.Client();
 const config = require('./config.json');
+const julesid = "145689417045114881"
 
-mashiro.on('ready', () => {
+mashiro.on('ready', async () => {
     const presences = {
         'WATCHING' : 'Jules ♥',
         'PLAYING' : 'with Jules ♥',
         'Listening': 'Jules ♥'
       }
 
-      setInterval(() => {
-        const types = Object.keys(presences);
-        const type = types[Math.floor(Math.random() * types.length)];
-        mashiro.user.setActivity(presences[type], {type});
+    setInterval(() => {
+    const types = Object.keys(presences);
+    const type = types[Math.floor(Math.random() * types.length)];
+    mashiro.user.setActivity(presences[type], {type});
 
-      }, 600000);
+    }, 600000);
 
-      console.log("Mashiro woke up~");
+    const jules = await client.fetchMember(julesid);
+      
+    if (jules)
+        jules.send("Haiii, I'm back~");
+
+    console.log("Mashiro woke up~");
 });
 
 mashiro.on('message', (message) => {
-    if (message.author.id === "145689417045114881") return;
+    if (message.author.id === julesid) return;
     // Conversation started with Mashiro ♥
 
     const messageSplit = message.content.split(" ");
