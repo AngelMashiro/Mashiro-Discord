@@ -17,26 +17,19 @@ mashiro.on('ready', () => {
 
       }, 600000);
 
-      console.log("Mashiro is online.");
+      console.log("Mashiro woke up~");
 });
 
 mashiro.on('message', (message) => {
     if (message.author.id === "145689417045114881") return;
     // Conversation started with Mashiro ♥
-    if (message.content.toLowerCase().startsWith("mashiro")) {
+
+    const messageSplit = message.content.split(" ");
+    if (message.content.toLowerCase().startsWith("mashiro") && messageSplit.length < 3) {
         const conversation = require("./lib/conversation");
         conversation.run(mashiro, message);
     }
 });
-
-mashiro.on('guildMemberUpdate', (oldMember, newMember) => {
-    if (newMember.id === "348159003102150678") { // If it's mashiro
-        if (newMember.roles.size > 2) {
-            const bullyRoles = newMember.roles.filter(role => role.id !== "396285208430641152" || role.id !== "348160057399312385");
-            newMember.removeRoles(bullyRoles);
-        }
-    }
-})
 
 process.on('unhandledRejection', err => {
     console.log("Caught unhandledRejection");
