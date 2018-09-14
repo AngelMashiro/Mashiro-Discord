@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const fs = require('fs');
 const mashiro = new Discord.Client();
 const config = require('./config.json');
-const julesid = "145689417045114881"
+const bully = "145689417045114881";
+const julesid = "174578160334012416";
 
 mashiro.on('ready', async () => {
     const presences = {
@@ -27,7 +28,7 @@ mashiro.on('ready', async () => {
 });
 
 mashiro.on('message', (message) => {
-    if (message.author.id === julesid) return;
+    if (message.author.id === bully) return;
     // Conversation started with Mashiro ♥
 
     const messageSplit = message.content.split(" ");
