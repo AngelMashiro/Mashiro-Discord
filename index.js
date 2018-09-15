@@ -44,4 +44,3 @@ process.on('unhandledRejection', err => {
 });
 
 mashiro.login(config.token);
-
