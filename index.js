@@ -21,9 +21,9 @@ mashiro.on('ready', async () => {
 
     const jules = await mashiro.fetchUser(julesid);
       
-    if (jules)
+    if (jules) 
         jules.send("Haiii, I'm back~");
-
+        
     console.log("Mashiro woke up~");
 });
 
