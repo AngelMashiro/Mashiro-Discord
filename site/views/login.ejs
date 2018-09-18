@@ -1,0 +1,20 @@
+<% var title = 'Login Mashiro' %>
+<% include header %>
+        <div id="box">
+            <form method="POST" action="/login">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label" for="sample3">Username</label>
+                </div>
+                <br>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sample3">
+                    <label class="mdl-textfield__label" for="sample3">Password</label>
+                </div>
+                <br>
+                <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored login-button">
+                    Login
+                  </button>
+            </form>
+        </div>
+<% include foot%>
