@@ -1,9 +1,12 @@
 const Discord = require('discord.js');
+const WebSocket = require('ws');
 const fs = require('fs');
 const mashiro = new Discord.Client();
 const config = require('./config.json');
-const bully = "145689417045114881";
-const julesid = "174578160334012416";
+const Logger = require('./utils/Logger');
+const logger = new Logger('./logs');
+const bully = "145689417045114881"; // I dont even know who this is anymore 
+const julesid = "17457816033401241600";
 
 mashiro.on('ready', async () => {
     const presences = {
@@ -38,10 +41,21 @@ mashiro.on('message', (message) => {
     }
 });
 
-process.on('unhandledRejection', err => {
-    console.log("Caught unhandledRejection");
-    console.log(err.stack);
+process.on('unhandledRejection', async err => {
+    const message = await logger.log(err.stack, true);
+    wss.broadcast(message);
 });
 
 mashiro.login(config.token);
 
+// Put web socket stuff in seperate file.
+const wss = new WebSocket.Server({port: 8080})
+
+// Broadcast to all.
+wss.broadcast = data => {
+    wss.clients.forEach(client => {
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(data);
+      }
+    });
+  };

@@ -1,0 +1,73 @@
+
+
+ --------------------------------------------------
+
+ test
+
+ --------------------------------------------------
+
+ test
+
+ --------------------------------------------------
+
+ test
+
+ --------------------------------------------------
+
+ test
+
+ --------------------------------------------------
+
+ test
+
+ --------------------------------------------------
+
+ DiscordAPIError: Invalid Form Body
+user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (14:51) test
+
+ --------------------------------------------------
+
+ (14:52) DiscordAPIError: Invalid Form Body
+user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (14:56) DiscordAPIError: Invalid Form Body
+user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (14:57) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (15:0) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (15:15) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
