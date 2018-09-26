@@ -68,3 +68,7 @@ passport.deserializeUser((id, done) => {
 
 app.listen(80);
 console.log("Listening on port 80")
+
+process.on('unhandledRejection', err => {
+    console.error(err.stack)
+})

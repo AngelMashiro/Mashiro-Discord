@@ -6,7 +6,7 @@ class Logger {
         this.logFolder = logFolder;
     }
 
-    async log(message, isStrackTrace = false) {
+    async log(message) {
         const d = new Date();
         const month = getMonthName(d.getMonth());
         const directoryName = month + " " + d.getFullYear();
@@ -24,19 +24,16 @@ class Logger {
             const logFileName = `${d.getDate()}-${d.getMonth()}.txt`;
             let currentFileData = '';
 
+            // Make dir if it doesnt exist yet, and check if a file already exists in the dir.
             await fsPromises.access(folderLocation).catch(async e => await fsPromises.mkdir(folderLocation));
             await fsPromises.access(`${folderLocation}/${logFileName}`).catch(async e => err = true);
 
+            // Read file since it already exists, and use that data before writing the new data.
             if (!err)
                 currentFileData = await fsPromises.readFile(`${folderLocation}/${logFileName}`);
             
-            if (isStrackTrace) {
-                let splitMsg = message.split('\n');
-                splitMsg[1] = "\t" + splitMsg[1];
-                message = splitMsg.join("\n");
-            }
-                   
-            const newFileData = `${currentFileData}\n\n ${'-'.repeat(50)}\n\n (${d.getHours()}:${d.getMinutes()}) ${message}`;
+            const minutes = d.getMinutes() < 10 ? "0" + d.getMinutes() : d.getMinutes();
+            const newFileData = `${currentFileData}\n\n ${'-'.repeat(50)}\n\n (${d.getHours()}:${minutes}) ${message}`;
             await fsPromises.writeFile(`${folderLocation}/${logFileName}`, newFileData);
 
             resolve(message);

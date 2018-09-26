@@ -1,0 +1,1096 @@
+
+
+ --------------------------------------------------
+
+ (11:41) (node:6204) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:42) (node:5424) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:42) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (11:43) (node:1216) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:43) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (11:43) (node:7396) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:43) ?
+
+
+ --------------------------------------------------
+
+ (11:43) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (11:46) (node:2312) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:46) ?
+
+
+ --------------------------------------------------
+
+ (11:46) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (11:46) (node:7980) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:46) uh
+
+
+ --------------------------------------------------
+
+ (11:46) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (11:46) DiscordAPIError: Invalid Form Body
+	user_id: snowflake value should be less than or equal to 9223372036854775807.
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+ --------------------------------------------------
+
+ (11:47) (node:6436) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:47) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (11:47) (node:4036) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:47) uh
+
+
+ --------------------------------------------------
+
+ (11:50) (node:5300) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (11:50) (node:5300) UnhandledPromiseRejectionWarning: ReferenceError: asd is not defined
+    at Client.mashiro.on (c:\Projects\Mashiro-Discord\index.js:26:17)
+    at Client.emit (events.js:187:15)
+    at WebSocketConnection.triggerReady (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:125:17)
+    at WebSocketConnection.checkIfReady (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:141:61)
+    at GuildCreateHandler.handle (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\websocket\packets\handlers\GuildCreate.js:13:31)
+    at WebSocketPacketManager.handle (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\websocket\packets\WebSocketPacketManager.js:103:65)
+    at WebSocketConnection.onPacket (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:333:35)
+    at WebSocketConnection.onMessage (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\websocket\WebSocketConnection.js:296:17)
+    at WebSocket.onMessage (c:\Projects\Mashiro-Discord\node_modules\discord.js\node_modules\ws\lib\event-target.js:120:16)
+    at WebSocket.emit (events.js:182:13)
+
+
+ --------------------------------------------------
+
+ (12:2) (node:9988) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:2) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:05) (node:7840) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:05) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:17) (node:9472) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:17) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:25) (node:8580) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:25) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:25) (node:3900) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:25) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:26) (node:4704) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:26) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:26) (node:9256) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:26) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:27) (node:9252) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:27) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:28) (node:3024) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:28) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:28) (node:3024) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+ot handled with .catch(). (rejection id: 2)
+
+
+ --------------------------------------------------
+
+ (12:29) (node:3024) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown User
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+ --------------------------------------------------
+
+ (12:29) (node:3024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+
+
+ --------------------------------------------------
+
+ (12:29) (node:3024) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'content' of undefined
+    at Object.exports.condition.message [as condition] (c:\Projects\Mashiro-Discord\lib\conversations\goodnight.js:1:102)
+    at Object.exports.run (c:\Projects\Mashiro-Discord\lib\conversation.js:18:35)
+
+
+ --------------------------------------------------
+
+ (12:31) (node:3024) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+
+
+ --------------------------------------------------
+
+ (12:31) (node:3024) UnhandledPromiseRejectionWarning: DiscordAPIError: Unknown User
+    at item.request.gen.end (c:\Projects\Mashiro-Discord\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:71:65)
+    at then (c:\Projects\Mashiro-Discord\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+ --------------------------------------------------
+
+ (12:32) (node:4384) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:32) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:32) (node:4384) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+ot handled with .catch(). (rejection id: 2)
+
+
+ --------------------------------------------------
+
+ (12:32) (node:4384) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+
+
+ --------------------------------------------------
+
+ (12:33) (node:4384) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+rd\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+ --------------------------------------------------
+
+ (12:34) (node:4384) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+ (c:\Projects\Mashiro-Discord\lib\conversation.js:18:35)
+
+
+ --------------------------------------------------
+
+ (12:38) (node:4968) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:38) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:40) (node:5912) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:40) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:40) (node:5912) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+rd\node_modules\snekfetch\src\index.js:215:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+
+ --------------------------------------------------
+
+ (12:57) (node:2224) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:57) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:57) IncomingMessage {
+  _readableState:
+   ReadableState {
+     objectMode: [33mfalse[39m,
+     highWaterMark: [33m16384[39m,
+     buffer: BufferList { length: 0 },
+     length: [33m0[39m,
+     pipes: [1mnull[22m,
+     pipesCount: [33m0[39m,
+     flowing: [1mnull[22m,
+     ended: [33mtrue[39m,
+     endEmitted: [33mfalse[39m,
+     reading: [33mfalse[39m,
+     sync: [33mtrue[39m,
+     needReadable: [33mfalse[39m,
+     emittedReadable: [33mtrue[39m,
+     readableListening: [33mfalse[39m,
+     resumeScheduled: [33mfalse[39m,
+     emitClose: [33mtrue[39m,
+     destroyed: [33mfalse[39m,
+     defaultEncoding: [32m'utf8'[39m,
+     awaitDrain: [33m0[39m,
+     readingMore: [33mtrue[39m,
+     decoder: [1mnull[22m,
+     encoding: [1mnull[22m },
+  readable: [33mtrue[39m,
+  _events: {},
+  _eventsCount: [33m0[39m,
+  _maxListeners: [90mundefined[39m,
+  socket:
+   Socket {
+     connecting: [33mfalse[39m,
+     _hadError: [33mfalse[39m,
+     _handle:
+      TCP {
+        reading: [33mtrue[39m,
+        onread: [36m[Function: onStreamRead][39m,
+        onconnection: [1mnull[22m,
+        _consumed: [33mtrue[39m,
+        [[32mSymbol(owner)[39m]: [36m[Circular][39m },
+     _parent: [1mnull[22m,
+     _host: [1mnull[22m,
+     _readableState:
+      ReadableState {
+        objectMode: [33mfalse[39m,
+        highWaterMark: [33m16384[39m,
+        buffer: BufferList { length: 0 },
+        length: [33m0[39m,
+        pipes: [1mnull[22m,
+        pipesCount: [33m0[39m,
+        flowing: [1mnull[22m,
+        ended: [33mfalse[39m,
+        endEmitted: [33mfalse[39m,
+        reading: [33mtrue[39m,
+        sync: [33mfalse[39m,
+        needReadable: [33mtrue[39m,
+        emittedReadable: [33mfalse[39m,
+        readableListening: [33mfalse[39m,
+        resumeScheduled: [33mfalse[39m,
+        emitClose: [33mfalse[39m,
+        destroyed: [33mfalse[39m,
+        defaultEncoding: [32m'utf8'[39m,
+        awaitDrain: [33m0[39m,
+        readingMore: [33mfalse[39m,
+        decoder: [1mnull[22m,
+        encoding: [1mnull[22m },
+     readable: [33mtrue[39m,
+     _events:
+      { end: [36m[Function: onReadableStreamEnd][39m,
+        timeout: [36m[Function: socketOnTimeout][39m,
+        error: [36m[Function: socketOnError][39m },
+     _eventsCount: [33m3[39m,
+     _maxListeners: [90mundefined[39m,
+     _writableState:
+      WritableState {
+        objectMode: [33mfalse[39m,
+        highWaterMark: [33m16384[39m,
+        finalCalled: [33mfalse[39m,
+        needDrain: [33mfalse[39m,
+        ending: [33mfalse[39m,
+        ended: [33mfalse[39m,
+        finished: [33mfalse[39m,
+        destroyed: [33mfalse[39m,
+        decodeStrings: [33mfalse[39m,
+        defaultEncoding: [32m'utf8'[39m,
+        length: [33m0[39m,
+        writing: [33mfalse[39m,
+        corked: [33m0[39m,
+        sync: [33mtrue[39m,
+        bufferProcessing: [33mfalse[39m,
+        onwrite: [36m[Function: bound onwrite][39m,
+        writecb: [1mnull[22m,
+        writelen: [33m0[39m,
+        bufferedRequest: [1mnull[22m,
+        lastBufferedRequest: [1mnull[22m,
+        pendingcb: [33m0[39m,
+        prefinished: [33mfalse[39m,
+        errorEmitted: [33mfalse[39m,
+        emitClose: [33mfalse[39m,
+        bufferedRequestCount: [33m0[39m,
+        corkedRequestsFree: [36m[Object][39m },
+     writable: [33mtrue[39m,
+     allowHalfOpen: [33mtrue[39m,
+     _sockname: [1mnull[22m,
+     _pendingData: [1mnull[22m,
+     _pendingEncoding: [32m''[39m,
+     server:
+      Server {
+        _events: [36m[Object][39m,
+        _eventsCount: [33m5[39m,
+        _maxListeners: [90mundefined[39m,
+        _connections: [33m1[39m,
+        _handle: [36m[TCP][39m,
+        _usingWorkers: [33mfalse[39m,
+        _workers: [],
+        _unref: [33mfalse[39m,
+        allowHalfOpen: [33mtrue[39m,
+        pauseOnConnect: [33mfalse[39m,
+        httpAllowHalfOpen: [33mfalse[39m,
+        timeout: [33m120000[39m,
+        keepAliveTimeout: [33m5000[39m,
+        _pendingResponseData: [33m0[39m,
+        maxHeadersCount: [1mnull[22m,
+        _connectionKey: [32m'6::::8080'[39m,
+        [[32mSymbol(IncomingMessage)[39m]: [36m[Function][39m,
+        [[32mSymbol(ServerResponse)[39m]: [36m[Function][39m,
+        [[32mSymbol(asyncId)[39m]: [33m7[39m },
+     _server:
+      Server {
+        _events: [36m[Object][39m,
+        _eventsCount: [33m5[39m,
+        _maxListeners: [90mundefined[39m,
+        _connections: [33m1[39m,
+        _handle: [36m[TCP][39m,
+        _usingWorkers: [33mfalse[39m,
+        _workers: [],
+        _unref: [33mfalse[39m,
+        allowHalfOpen: [33mtrue[39m,
+        pauseOnConnect: [33mfalse[39m,
+        httpAllowHalfOpen: [33mfalse[39m,
+        timeout: [33m120000[39m,
+        keepAliveTimeout: [33m5000[39m,
+        _pendingResponseData: [33m0[39m,
+        maxHeadersCount: [1mnull[22m,
+        _connectionKey: [32m'6::::8080'[39m,
+        [[32mSymbol(IncomingMessage)[39m]: [36m[Function][39m,
+        [[32mSymbol(ServerResponse)[39m]: [36m[Function][39m,
+        [[32mSymbol(asyncId)[39m]: [33m7[39m },
+     timeout: [33m120000[39m,
+     parser: [1mnull[22m,
+     on: [36m[Function][39m,
+     _paused: [33mfalse[39m,
+     [[32mSymbol(asyncId)[39m]: [33m133[39m,
+     [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+     [[32mSymbol(timeout)[39m]:
+      Timeout {
+        _called: [33mfalse[39m,
+        _idleTimeout: [33m120000[39m,
+        _idlePrev: [36m[TimersList][39m,
+        _idleNext: [36m[TimersList][39m,
+        _idleStart: [33m12167[39m,
+        _onTimeout: [36m[Function: bound ][39m,
+        _timerArgs: [90mundefined[39m,
+        _repeat: [1mnull[22m,
+        _destroyed: [33mfalse[39m,
+        [[32mSymbol(unrefed)[39m]: [33mtrue[39m,
+        [[32mSymbol(asyncId)[39m]: [33m134[39m,
+        [[32mSymbol(triggerId)[39m]: [33m133[39m },
+     [[32mSymbol(kBytesRead)[39m]: [33m0[39m,
+     [[32mSymbol(kBytesWritten)[39m]: [33m0[39m },
+  connection:
+   Socket {
+     connecting: [33mfalse[39m,
+     _hadError: [33mfalse[39m,
+     _handle:
+      TCP {
+        reading: [33mtrue[39m,
+        onread: [36m[Function: onStreamRead][39m,
+        onconnection: [1mnull[22m,
+        _consumed: [33mtrue[39m,
+        [[32mSymbol(owner)[39m]: [36m[Circular][39m },
+     _parent: [1mnull[22m,
+     _host: [1mnull[22m,
+     _readableState:
+      ReadableState {
+        objectMode: [33mfalse[39m,
+        highWaterMark: [33m16384[39m,
+        buffer: BufferList { length: 0 },
+        length: [33m0[39m,
+        pipes: [1mnull[22m,
+        pipesCount: [33m0[39m,
+        flowing: [1mnull[22m,
+        ended: [33mfalse[39m,
+        endEmitted: [33mfalse[39m,
+        reading: [33mtrue[39m,
+        sync: [33mfalse[39m,
+        needReadable: [33mtrue[39m,
+        emittedReadable: [33mfalse[39m,
+        readableListening: [33mfalse[39m,
+        resumeScheduled: [33mfalse[39m,
+        emitClose: [33mfalse[39m,
+        destroyed: [33mfalse[39m,
+        defaultEncoding: [32m'utf8'[39m,
+        awaitDrain: [33m0[39m,
+        readingMore: [33mfalse[39m,
+        decoder: [1mnull[22m,
+        encoding: [1mnull[22m },
+     readable: [33mtrue[39m,
+     _events:
+      { end: [36m[Function: onReadableStreamEnd][39m,
+        timeout: [36m[Function: socketOnTimeout][39m,
+        error: [36m[Function: socketOnError][39m },
+     _eventsCount: [33m3[39m,
+     _maxListeners: [90mundefined[39m,
+     _writableState:
+      WritableState {
+        objectMode: [33mfalse[39m,
+        highWaterMark: [33m16384[39m,
+        finalCalled: [33mfalse[39m,
+        needDrain: [33mfalse[39m,
+        ending: [33mfalse[39m,
+        ended: [33mfalse[39m,
+        finished: [33mfalse[39m,
+        destroyed: [33mfalse[39m,
+        decodeStrings: [33mfalse[39m,
+        defaultEncoding: [32m'utf8'[39m,
+        length: [33m0[39m,
+        writing: [33mfalse[39m,
+        corked: [33m0[39m,
+        sync: [33mtrue[39m,
+        bufferProcessing: [33mfalse[39m,
+        onwrite: [36m[Function: bound onwrite][39m,
+        writecb: [1mnull[22m,
+        writelen: [33m0[39m,
+        bufferedRequest: [1mnull[22m,
+        lastBufferedRequest: [1mnull[22m,
+        pendingcb: [33m0[39m,
+        prefinished: [33mfalse[39m,
+        errorEmitted: [33mfalse[39m,
+        emitClose: [33mfalse[39m,
+        bufferedRequestCount: [33m0[39m,
+        corkedRequestsFree: [36m[Object][39m },
+     writable: [33mtrue[39m,
+     allowHalfOpen: [33mtrue[39m,
+     _sockname: [1mnull[22m,
+     _pendingData: [1mnull[22m,
+     _pendingEncoding: [32m''[39m,
+     server:
+      Server {
+        _events: [36m[Object][39m,
+        _eventsCount: [33m5[39m,
+        _maxListeners: [90mundefined[39m,
+        _connections: [33m1[39m,
+        _handle: [36m[TCP][39m,
+        _usingWorkers: [33mfalse[39m,
+        _workers: [],
+        _unref: [33mfalse[39m,
+        allowHalfOpen: [33mtrue[39m,
+        pauseOnConnect: [33mfalse[39m,
+        httpAllowHalfOpen: [33mfalse[39m,
+        timeout: [33m120000[39m,
+        keepAliveTimeout: [33m5000[39m,
+        _pendingResponseData: [33m0[39m,
+        maxHeadersCount: [1mnull[22m,
+        _connectionKey: [32m'6::::8080'[39m,
+        [[32mSymbol(IncomingMessage)[39m]: [36m[Function][39m,
+        [[32mSymbol(ServerResponse)[39m]: [36m[Function][39m,
+        [[32mSymbol(asyncId)[39m]: [33m7[39m },
+     _server:
+      Server {
+        _events: [36m[Object][39m,
+        _eventsCount: [33m5[39m,
+        _maxListeners: [90mundefined[39m,
+        _connections: [33m1[39m,
+        _handle: [36m[TCP][39m,
+        _usingWorkers: [33mfalse[39m,
+        _workers: [],
+        _unref: [33mfalse[39m,
+        allowHalfOpen: [33mtrue[39m,
+        pauseOnConnect: [33mfalse[39m,
+        httpAllowHalfOpen: [33mfalse[39m,
+        timeout: [33m120000[39m,
+        keepAliveTimeout: [33m5000[39m,
+        _pendingResponseData: [33m0[39m,
+        maxHeadersCount: [1mnull[22m,
+        _connectionKey: [32m'6::::8080'[39m,
+        [[32mSymbol(IncomingMessage)[39m]: [36m[Function][39m,
+        [[32mSymbol(ServerResponse)[39m]: [36m[Function][39m,
+        [[32mSymbol(asyncId)[39m]: [33m7[39m },
+     timeout: [33m120000[39m,
+     parser: [1mnull[22m,
+     on: [36m[Function][39m,
+     _paused: [33mfalse[39m,
+     [[32mSymbol(asyncId)[39m]: [33m133[39m,
+     [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+     [[32mSymbol(timeout)[39m]:
+      Timeout {
+        _called: [33mfalse[39m,
+        _idleTimeout: [33m120000[39m,
+        _idlePrev: [36m[TimersList][39m,
+        _idleNext: [36m[TimersList][39m,
+        _idleStart: [33m12167[39m,
+        _onTimeout: [36m[Function: bound ][39m,
+        _timerArgs: [90mundefined[39m,
+        _repeat: [1mnull[22m,
+        _destroyed: [33mfalse[39m,
+        [[32mSymbol(unrefed)[39m]: [33mtrue[39m,
+        [[32mSymbol(asyncId)[39m]: [33m134[39m,
+        [[32mSymbol(triggerId)[39m]: [33m133[39m },
+     [[32mSymbol(kBytesRead)[39m]: [33m0[39m,
+     [[32mSymbol(kBytesWritten)[39m]: [33m0[39m },
+  httpVersionMajor: [33m1[39m,
+  httpVersionMinor: [33m1[39m,
+  httpVersion: [32m'1.1'[39m,
+  complete: [33mtrue[39m,
+  headers:
+   { host: [32m'localhost:8080'[39m,
+     [32m'user-agent'[39m:
+      [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'[39m,
+     accept:
+      [32m'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'[39m,
+     [32m'accept-language'[39m: [32m'en-US,en;q=0.5'[39m,
+     [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+     [32m'sec-websocket-version'[39m: [32m'13'[39m,
+     origin: [32m'http://localhost'[39m,
+     [32m'sec-websocket-extensions'[39m: [32m'permessage-deflate'[39m,
+     [32m'sec-websocket-key'[39m: [32m'DRqEJ/6pc9gQ3amD1iz6Cw=='[39m,
+     cookie:
+      [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU'[39m,
+     connection: [32m'keep-alive, Upgrade'[39m,
+     pragma: [32m'no-cache'[39m,
+     [32m'cache-control'[39m: [32m'no-cache'[39m,
+     upgrade: [32m'websocket'[39m },
+  rawHeaders:
+   [ [32m'Host'[39m,
+     [32m'localhost:8080'[39m,
+     [32m'User-Agent'[39m,
+     [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'[39m,
+     [32m'Accept'[39m,
+     [32m'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'[39m,
+     [32m'Accept-Language'[39m,
+     [32m'en-US,en;q=0.5'[39m,
+     [32m'Accept-Encoding'[39m,
+     [32m'gzip, deflate'[39m,
+     [32m'Sec-WebSocket-Version'[39m,
+     [32m'13'[39m,
+     [32m'Origin'[39m,
+     [32m'http://localhost'[39m,
+     [32m'Sec-WebSocket-Extensions'[39m,
+     [32m'permessage-deflate'[39m,
+     [32m'Sec-WebSocket-Key'[39m,
+     [32m'DRqEJ/6pc9gQ3amD1iz6Cw=='[39m,
+     [32m'Cookie'[39m,
+     [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU'[39m,
+     [32m'Connection'[39m,
+     [32m'keep-alive, Upgrade'[39m,
+     [32m'Pragma'[39m,
+     [32m'no-cache'[39m,
+     [32m'Cache-Control'[39m,
+     [32m'no-cache'[39m,
+     [32m'Upgrade'[39m,
+     [32m'websocket'[39m ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: [33mfalse[39m,
+  upgrade: [33mtrue[39m,
+  url: [32m'/'[39m,
+  method: [32m'GET'[39m,
+  statusCode: [1mnull[22m,
+  statusMessage: [1mnull[22m,
+  client:
+   Socket {
+     connecting: [33mfalse[39m,
+     _hadError: [33mfalse[39m,
+     _handle:
+      TCP {
+        reading: [33mtrue[39m,
+        onread: [36m[Function: onStreamRead][39m,
+        onconnection: [1mnull[22m,
+        _consumed: [33mtrue[39m,
+        [[32mSymbol(owner)[39m]: [36m[Circular][39m },
+     _parent: [1mnull[22m,
+     _host: [1mnull[22m,
+     _readableState:
+      ReadableState {
+        objectMode: [33mfalse[39m,
+        highWaterMark: [33m16384[39m,
+        buffer: BufferList { length: 0 },
+        length: [33m0[39m,
+        pipes: [1mnull[22m,
+        pipesCount: [33m0[39m,
+        flowing: [1mnull[22m,
+        ended: [33mfalse[39m,
+        endEmitted: [33mfalse[39m,
+        reading: [33mtrue[39m,
+        sync: [33mfalse[39m,
+        needReadable: [33mtrue[39m,
+        emittedReadable: [33mfalse[39m,
+        readableListening: [33mfalse[39m,
+        resumeScheduled: [33mfalse[39m,
+        emitClose: [33mfalse[39m,
+        destroyed: [33mfalse[39m,
+        defaultEncoding: [32m'utf8'[39m,
+        awaitDrain: [33m0[39m,
+        readingMore: [33mfalse[39m,
+        decoder: [1mnull[22m,
+        encoding: [1mnull[22m },
+     readable: [33mtrue[39m,
+     _events:
+      { end: [36m[Function: onReadableStreamEnd][39m,
+        timeout: [36m[Function: socketOnTimeout][39m,
+        error: [36m[Function: socketOnError][39m },
+     _eventsCount: [33m3[39m,
+     _maxListeners: [90mundefined[39m,
+     _writableState:
+      WritableState {
+        objectMode: [33mfalse[39m,
+        highWaterMark: [33m16384[39m,
+        finalCalled: [33mfalse[39m,
+        needDrain: [33mfalse[39m,
+        ending: [33mfalse[39m,
+        ended: [33mfalse[39m,
+        finished: [33mfalse[39m,
+        destroyed: [33mfalse[39m,
+        decodeStrings: [33mfalse[39m,
+        defaultEncoding: [32m'utf8'[39m,
+        length: [33m0[39m,
+        writing: [33mfalse[39m,
+        corked: [33m0[39m,
+        sync: [33mtrue[39m,
+        bufferProcessing: [33mfalse[39m,
+        onwrite: [36m[Function: bound onwrite][39m,
+        writecb: [1mnull[22m,
+        writelen: [33m0[39m,
+        bufferedRequest: [1mnull[22m,
+        lastBufferedRequest: [1mnull[22m,
+        pendingcb: [33m0[39m,
+        prefinished: [33mfalse[39m,
+        errorEmitted: [33mfalse[39m,
+        emitClose: [33mfalse[39m,
+        bufferedRequestCount: [33m0[39m,
+        corkedRequestsFree: [36m[Object][39m },
+     writable: [33mtrue[39m,
+     allowHalfOpen: [33mtrue[39m,
+     _sockname: [1mnull[22m,
+     _pendingData: [1mnull[22m,
+     _pendingEncoding: [32m''[39m,
+     server:
+      Server {
+        _events: [36m[Object][39m,
+        _eventsCount: [33m5[39m,
+        _maxListeners: [90mundefined[39m,
+        _connections: [33m1[39m,
+        _handle: [36m[TCP][39m,
+        _usingWorkers: [33mfalse[39m,
+        _workers: [],
+        _unref: [33mfalse[39m,
+        allowHalfOpen: [33mtrue[39m,
+        pauseOnConnect: [33mfalse[39m,
+        httpAllowHalfOpen: [33mfalse[39m,
+        timeout: [33m120000[39m,
+        keepAliveTimeout: [33m5000[39m,
+        _pendingResponseData: [33m0[39m,
+        maxHeadersCount: [1mnull[22m,
+        _connectionKey: [32m'6::::8080'[39m,
+        [[32mSymbol(IncomingMessage)[39m]: [36m[Function][39m,
+        [[32mSymbol(ServerResponse)[39m]: [36m[Function][39m,
+        [[32mSymbol(asyncId)[39m]: [33m7[39m },
+     _server:
+      Server {
+        _events: [36m[Object][39m,
+        _eventsCount: [33m5[39m,
+        _maxListeners: [90mundefined[39m,
+        _connections: [33m1[39m,
+        _handle: [36m[TCP][39m,
+        _usingWorkers: [33mfalse[39m,
+        _workers: [],
+        _unref: [33mfalse[39m,
+        allowHalfOpen: [33mtrue[39m,
+        pauseOnConnect: [33mfalse[39m,
+        httpAllowHalfOpen: [33mfalse[39m,
+        timeout: [33m120000[39m,
+        keepAliveTimeout: [33m5000[39m,
+        _pendingResponseData: [33m0[39m,
+        maxHeadersCount: [1mnull[22m,
+        _connectionKey: [32m'6::::8080'[39m,
+        [[32mSymbol(IncomingMessage)[39m]: [36m[Function][39m,
+        [[32mSymbol(ServerResponse)[39m]: [36m[Function][39m,
+        [[32mSymbol(asyncId)[39m]: [33m7[39m },
+     timeout: [33m120000[39m,
+     parser: [1mnull[22m,
+     on: [36m[Function][39m,
+     _paused: [33mfalse[39m,
+     [[32mSymbol(asyncId)[39m]: [33m133[39m,
+     [[32mSymbol(lastWriteQueueSize)[39m]: [33m0[39m,
+     [[32mSymbol(timeout)[39m]:
+      Timeout {
+        _called: [33mfalse[39m,
+        _idleTimeout: [33m120000[39m,
+        _idlePrev: [36m[TimersList][39m,
+        _idleNext: [36m[TimersList][39m,
+        _idleStart: [33m12167[39m,
+        _onTimeout: [36m[Function: bound ][39m,
+        _timerArgs: [90mundefined[39m,
+        _repeat: [1mnull[22m,
+        _destroyed: [33mfalse[39m,
+        [[32mSymbol(unrefed)[39m]: [33mtrue[39m,
+        [[32mSymbol(asyncId)[39m]: [33m134[39m,
+        [[32mSymbol(triggerId)[39m]: [33m133[39m },
+     [[32mSymbol(kBytesRead)[39m]: [33m0[39m,
+     [[32mSymbol(kBytesWritten)[39m]: [33m0[39m },
+  _consuming: [33mfalse[39m,
+  _dumped: [33mfalse[39m,
+  parser: [1mnull[22m }
+
+
+ --------------------------------------------------
+
+ (12:58) (node:2712) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:58) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:58) { host: [32m'localhost:8080'[39m,
+  [32m'user-agent'[39m:
+   [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'[39m,
+  accept:
+   [32m'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'[39m,
+  [32m'accept-language'[39m: [32m'en-US,en;q=0.5'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+  [32m'sec-websocket-version'[39m: [32m'13'[39m,
+  origin: [32m'http://localhost'[39m,
+  [32m'sec-websocket-extensions'[39m: [32m'permessage-deflate'[39m,
+  [32m'sec-websocket-key'[39m: [32m'ci0R0W0/kRPVHSBmK+94HQ=='[39m,
+  cookie:
+   [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU'[39m,
+  connection: [32m'keep-alive, Upgrade'[39m,
+  pragma: [32m'no-cache'[39m,
+  [32m'cache-control'[39m: [32m'no-cache'[39m,
+  upgrade: [32m'websocket'[39m }
+
+
+ --------------------------------------------------
+
+ (12:59) (node:316) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (12:59) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (12:59) { host: [32m'localhost:8080'[39m,
+  [32m'user-agent'[39m:
+   [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'[39m,
+  accept:
+   [32m'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'[39m,
+  [32m'accept-language'[39m: [32m'en-US,en;q=0.5'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+  [32m'sec-websocket-version'[39m: [32m'13'[39m,
+  origin: [32m'http://localhost'[39m,
+  [32m'sec-websocket-extensions'[39m: [32m'permessage-deflate'[39m,
+  [32m'sec-websocket-key'[39m: [32m'S0ZZX+Cd1w+xkJkHVJhFzg=='[39m,
+  cookie:
+   [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU; ws_token=test'[39m,
+  connection: [32m'keep-alive, Upgrade'[39m,
+  pragma: [32m'no-cache'[39m,
+  [32m'cache-control'[39m: [32m'no-cache'[39m,
+  upgrade: [32m'websocket'[39m }
+
+
+ --------------------------------------------------
+
+ (13:00) (node:7456) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:00) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:00) [90mundefined[39m
+
+
+ --------------------------------------------------
+
+ (13:00) (node:6872) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:00) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:00) [90mundefined[39m
+
+
+ --------------------------------------------------
+
+ (13:00) (node:6632) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:00) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:00) { host: [32m'localhost:8080'[39m,
+  [32m'user-agent'[39m:
+   [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'[39m,
+  accept:
+   [32m'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'[39m,
+  [32m'accept-language'[39m: [32m'en-US,en;q=0.5'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+  [32m'sec-websocket-version'[39m: [32m'13'[39m,
+  origin: [32m'http://localhost'[39m,
+  [32m'sec-websocket-extensions'[39m: [32m'permessage-deflate'[39m,
+  [32m'sec-websocket-key'[39m: [32m'JGbOrVKUpGSNvwrU93O1vw=='[39m,
+  cookie:
+   [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU; ws_token=test'[39m,
+  connection: [32m'keep-alive, Upgrade'[39m,
+  pragma: [32m'no-cache'[39m,
+  [32m'cache-control'[39m: [32m'no-cache'[39m,
+  upgrade: [32m'websocket'[39m }
+
+
+ --------------------------------------------------
+
+ (13:01) { host: [32m'localhost:8080'[39m,
+  [32m'user-agent'[39m:
+   [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0'[39m,
+  accept:
+   [32m'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'[39m,
+  [32m'accept-language'[39m: [32m'en-US,en;q=0.5'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip, deflate'[39m,
+  [32m'sec-websocket-version'[39m: [32m'13'[39m,
+  origin: [32m'http://localhost'[39m,
+  [32m'sec-websocket-extensions'[39m: [32m'permessage-deflate'[39m,
+  [32m'sec-websocket-key'[39m: [32m'AAf9xOKUr4yQBjSpFmRFWg=='[39m,
+  cookie:
+   [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU; ws_token=test'[39m,
+  connection: [32m'keep-alive, Upgrade'[39m,
+  pragma: [32m'no-cache'[39m,
+  [32m'cache-control'[39m: [32m'no-cache'[39m,
+  upgrade: [32m'websocket'[39m }
+
+
+ --------------------------------------------------
+
+ (13:02) (node:7504) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:02) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:02) [90mundefined[39m
+
+
+ --------------------------------------------------
+
+ (13:02) (node:1072) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:02) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:02) [ [32m'connect.sid=s%3AXJujOCKb6_zvcB2eFPsZOXYaaKVlgIm5.ulWJ%2BDsP7P1k%2BCfaUTtPVN2rjTX6xUwVbfm9Rs%2B8NZU'[39m,
+  [32m' ws_token=test'[39m ]
+
+
+ --------------------------------------------------
+
+ (13:02) (node:4272) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:02) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:02) ws_token=test
+
+
+ --------------------------------------------------
+
+ (13:04) (node:5772) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:04) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:04) test
+
+
+ --------------------------------------------------
+
+ (13:05) z2qN8KoPgn
+
+
+ --------------------------------------------------
+
+ (13:05) z2qN8KoPgn
+
+
+ --------------------------------------------------
+
+ (13:08) (node:5848) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:08) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:10) (node:9588) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (13:10) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (13:10) Hai
+
+
+ --------------------------------------------------
+
+ (13:10) Hai
