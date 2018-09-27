@@ -11,7 +11,7 @@
   "author": "Angel Mashiro",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "^11.4.2",
     "ffmpeg": "0.0.4",
     "ffmpeg-binaries": "^3.2.2-3",
     "mysql": "^2.15.0",
