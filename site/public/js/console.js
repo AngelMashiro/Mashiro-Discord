@@ -1,4 +1,4 @@
-document.body.onload = () => {
+document.body.onload = async () => {
     setCookie('ws_token', 'z2qN8KoPgn', 1);
     const socket = new WebSocket('ws://localhost:8080');
     const consoleBody = document.getElementById('console');
@@ -13,6 +13,14 @@ document.body.onload = () => {
 
         consoleBody.innerHTML += "<br>" + data;
     });
+
+    //oAuth stuff
+    const urlParams = new URLSearchParams(window.location.search);
+    const token = urlParams.get("token");
+    setCookie('oauth_token', token, 7);
+
+    const data = await fetch('http://discordapp.com/api/users/@me', {headers: { Authorization: "Bearer " + token}});
+    console.log(await data.json());
 }
 
 function setCookie(cname, cvalue, exdays) {
