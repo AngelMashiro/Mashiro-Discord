@@ -1,4 +1,10 @@
-const Logger = require('./utils/Logger');
-const logger = new Logger('./logs');
-
-logger.log('test');
+process.stdin.on('readable', () => {
+    const chunk = process.stdin.read();
+    if (chunk !== null) {
+      console.log(chunk)
+    }
+  });
+  
+  process.stdin.on('end', () => {
+    console.log('end');
+  });

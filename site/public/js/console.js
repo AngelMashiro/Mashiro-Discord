@@ -17,15 +17,19 @@ document.body.onload = async () => {
     //oAuth stuff
     const urlParams = new URLSearchParams(window.location.search);
     const token = urlParams.get("token");
-    setCookie('oauth_token', token, 7);
 
-    const data = await fetch('http://discordapp.com/api/users/@me', {headers: { Authorization: "Bearer " + token}});
-    console.log(await data.json());
+    if (token) {
+        setCookie('oauth_token', token, 7);
+
+        const data = await fetch('http://discordapp.com/api/users/@me', { headers: { Authorization: "Bearer " + token } });
+        console.log(await data.json());
+    }
+
 }
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }

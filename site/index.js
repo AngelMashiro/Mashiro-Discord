@@ -28,12 +28,9 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 app.get('/login', (req, res) => {
-    if (req.isAuthenticated()) {
-        res.redirect('/');
-        return;
-    }
+    if (req.isAuthenticated())
+        return res.redirect('/');
     
-    new Promise((res, rej) => rej('Cannot read property of undefined.'));
     res.render('login');
 })
 
@@ -48,7 +45,7 @@ app.post('/login', (req, res) => {
     const username = req.body.username;
     const password = req.body.pass;
 
-    if (username === "Jules" && password === "meme") {
+    if (username === config.site_username && password === config.site_pass) {
         req.login(lastid, err => {
             res.redirect('/');
         });
