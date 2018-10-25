@@ -24,10 +24,13 @@ class Util {
 
         let nameMember;
 
-        message.client.guilds.forEach(guild => {
-            nameMember = guild.members.find(member => member.user.username.toLowerCase() === value)
-        })
+        for (let guild of message.client.guilds.array()) {
+            nameMember = guild.members.find(member => member.user.username.toLowerCase() === value);
 
+            if (nameMember)
+                break;
+        }
+        
         if (nameMember)
             return nameMember.user;
 
