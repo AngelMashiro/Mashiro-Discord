@@ -11,29 +11,36 @@ const scopes = "identify connections rpc.notifications.read";
 let lastid = 10000;
 
 router.get('/login', (req, res) => {
-  res.redirect(`https://discordapp.com/oauth2/authorize?client_id=${CLIENT_ID}&scope=${scopes}&response_type=code&redirect_uri=${redirect}`);
+    res.redirect(`https://discordapp.com/oauth2/authorize?client_id=${CLIENT_ID}&scope=${scopes}&response_type=code&redirect_uri=${redirect}`);
 });
 
 router.get('/callback', async (req, res) => {
     if (!req.query.code) throw new Error('NoCodeProvided');
     const code = req.query.code;
     const creds = btoa(`${CLIENT_ID}:${CLIENT_SECRET}`);
-    const response = await fetch(`https://discordapp.com/api/oauth2/token?grant_type=authorization_code&code=${code}&redirect_uri=${redirect}`,
-      {
+    const responseAuth = await fetch(`https://discordapp.com/api/oauth2/token?grant_type=authorization_code&code=${code}&redirect_uri=${redirect}`,
+    {
         method: 'POST',
-        headers: {
-          Authorization: `Basic ${creds}`,
-        },
-      });
-    const json = await response.json();
-
-    req.login(lastid, err => {
-        if (err)
-            res.redirect('/');
+        headers: { Authorization: `Basic ${creds}`},
     });
-    lastid++;
+    const jsonAuth = await responseAuth.json();
 
-    res.redirect(`/?token=${json.access_token}`);
+    const responseUserData = await fetch('http://discordapp.com/api/users/@me', { headers: { Authorization: "Bearer " + jsonAuth.access_token } });
+    const jsonUserData = await responseUserData.json();
+
+    // If user is logged in as me, login and redirect to console.
+    if (jsonUserData.id === config.owner_id) {
+        req.login(lastid, err => {
+            if (err)
+                return res.redirect('/');
+
+            lastid++;
+            res.redirect(`/?token=${jsonAuth.access_token}`);
+        });
+    }
+    else {
+        res.redirect('/?loginFailed=true');
+    }
 });
 
 module.exports = router;
