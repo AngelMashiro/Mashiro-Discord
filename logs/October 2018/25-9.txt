@@ -1,0 +1,412 @@
+
+
+ --------------------------------------------------
+
+ (21:07) User {
+  id: [32m'174578160334012416'[39m,
+  username: [32m'Angel Mashiro'[39m,
+  discriminator: [32m'0748'[39m,
+  avatar: [32m'2ae66e6be4afcb8cd62d3878da053941'[39m,
+  bot: [33mfalse[39m,
+  lastMessageID: [32m'505095161240616980'[39m,
+  lastMessage:
+   Message {
+     channel:
+      TextChannel {
+        type: [32m'text'[39m,
+        deleted: [33mfalse[39m,
+        id: [32m'467469462275358725'[39m,
+        name: [32m'general'[39m,
+        position: [33m0[39m,
+        parentID: [32m'467469462275358723'[39m,
+        permissionOverwrites: Collection [Map] {},
+        topic: [1mnull[22m,
+        nsfw: [33mfalse[39m,
+        lastMessageID: [32m'505095161240616980'[39m,
+        guild: [36m[Guild][39m,
+        messages: [36m[Collection][39m,
+        _typing: [36m[Map][39m,
+        lastMessage: [36m[Circular][39m },
+     deleted: [33mfalse[39m,
+     id: [32m'505095161240616980'[39m,
+     type: [32m'DEFAULT'[39m,
+     content: [32m'can you get me the test of 174578160334012416'[39m,
+     author: [36m[Circular][39m,
+     member:
+      GuildMember {
+        guild: [36m[Guild][39m,
+        user: [36m[Circular][39m,
+        joinedTimestamp: [33m1531523804970[39m,
+        _roles: [36m[Array][39m,
+        serverDeaf: [33mfalse[39m,
+        serverMute: [33mfalse[39m,
+        selfMute: [90mundefined[39m,
+        selfDeaf: [90mundefined[39m,
+        voiceSessionID: [90mundefined[39m,
+        voiceChannelID: [90mundefined[39m,
+        speaking: [33mfalse[39m,
+        nickname: [1mnull[22m,
+        lastMessageID: [32m'505095161240616980'[39m,
+        lastMessage: [36m[Circular][39m,
+        deleted: [33mfalse[39m },
+     pinned: [33mfalse[39m,
+     tts: [33mfalse[39m,
+     nonce: [32m'505095160456019968'[39m,
+     system: [33mfalse[39m,
+     embeds: [],
+     attachments: Collection [Map] {},
+     createdTimestamp: [33m1540494470654[39m,
+     editedTimestamp: [1mnull[22m,
+     reactions: Collection [Map] {},
+     mentions:
+      MessageMentions {
+        everyone: [33mfalse[39m,
+        users: Collection [Map] {},
+        roles: Collection [Map] {},
+        _content: [32m'can you get me the test of 174578160334012416'[39m,
+        _client: [36m[Client][39m,
+        _guild: [36m[Guild][39m,
+        _members: Collection [Map] {},
+        _channels: [1mnull[22m },
+     webhookID: [1mnull[22m,
+     hit: [1mnull[22m,
+     _edits: [] } }
+rcular][39m,
+        member: [36m[Circular][39m,
+        pinned: [33mfalse[39m,
+        tts: [33mfalse[39m,
+        nonce: [32m'505095025684643840'[39m,
+        system: [33mfalse[39m,
+        embeds: [],
+        attachments: Collection [Map] {},
+        createdTimestamp: [33m1540494438492[39m,
+        editedTimestamp: [1mnull[22m,
+        reactions: Collection [Map] {},
+        mentions: [36m[MessageMentions][39m,
+        webhookID: [1mnull[22m,
+        hit: [1mnull[22m,
+        _edits: [] } },
+  joinedTimestamp: [33m1531523804970[39m,
+  _roles: [ [32m'497010634207133696'[39m ],
+  serverDeaf: [33mfalse[39m,
+  serverMute: [33mfalse[39m,
+  selfMute: [90mundefined[39m,
+  selfDeaf: [90mundefined[39m,
+  voiceSessionID: [90mundefined[39m,
+  voiceChannelID: [90mundefined[39m,
+  speaking: [33mfalse[39m,
+  nickname: [1mnull[22m,
+  lastMessageID: [32m'505095026343411727'[39m,
+  lastMessage:
+   Message {
+     channel:
+      TextChannel {
+        type: [32m'text'[39m,
+        deleted: [33mfalse[39m,
+        id: [32m'467469462275358725'[39m,
+        name: [32m'general'[39m,
+        position: [33m0[39m,
+        parentID: [32m'467469462275358723'[39m,
+        permissionOverwrites: Collection [Map] {},
+        topic: [1mnull[22m,
+        nsfw: [33mfalse[39m,
+        lastMessageID: [32m'505095026343411727'[39m,
+        guild: [36m[Guild][39m,
+        messages: [36m[Collection][39m,
+        _typing: [36m[Map][39m,
+        lastMessage: [36m[Circular][39m },
+     deleted: [33mfalse[39m,
+     id: [32m'505095026343411727'[39m,
+     type: [32m'DEFAULT'[39m,
+     content: [32m'can you get me the test of angel mashiro'[39m,
+     author:
+      User {
+        id: [32m'174578160334012416'[39m,
+        username: [32m'Angel Mashiro'[39m,
+        discriminator: [32m'0748'[39m,
+        avatar: [32m'2ae66e6be4afcb8cd62d3878da053941'[39m,
+        bot: [33mfalse[39m,
+        lastMessageID: [32m'505095026343411727'[39m,
+        lastMessage: [36m[Circular][39m },
+     member: [36m[Circular][39m,
+     pinned: [33mfalse[39m,
+     tts: [33mfalse[39m,
+     nonce: [32m'505095025684643840'[39m,
+     system: [33mfalse[39m,
+     embeds: [],
+     attachments: Collection [Map] {},
+     createdTimestamp: [33m1540494438492[39m,
+     editedTimestamp: [1mnull[22m,
+     reactions: Collection [Map] {},
+     mentions:
+      MessageMentions {
+        everyone: [33mfalse[39m,
+        users: Collection [Map] {},
+        roles: Collection [Map] {},
+        _content: [32m'can you get me the test of angel mashiro'[39m,
+        _client: [36m[Client][39m,
+        _guild: [36m[Guild][39m,
+        _members: Collection [Map] {},
+        _channels: [1mnull[22m },
+     webhookID: [1mnull[22m,
+     hit: [1mnull[22m,
+     _edits: [] },
+  deleted: [33mfalse[39m }
+
+
+ --------------------------------------------------
+
+ (21:07) mashiroo?
+
+
+ --------------------------------------------------
+
+ (21:07) Jules~?
+
+
+ --------------------------------------------------
+
+ (21:07) [ [32m'can'[39m,
+  [32m'you'[39m,
+  [32m'get'[39m,
+  [32m'me'[39m,
+  [32m'the'[39m,
+  [32m'test'[39m,
+  [32m'of'[39m,
+  [32m'174578160334012416'[39m ]
+
+
+ --------------------------------------------------
+
+ (21:09) can you get me the test of <@174578160334012416>
+
+
+ --------------------------------------------------
+
+ (23:16) (node:6204) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (23:16) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (23:50) (node:14384) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (23:50) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (23:50) Mashiroo?
+
+
+ --------------------------------------------------
+
+ (23:50) Jules~?
+
+
+ --------------------------------------------------
+
+ (23:50) Can you get me the avatarURL of Angel Mashiro
+get'[39m,
+  [32m'me'[39m,
+  [32m'the'[39m,
+  [32m'avatarURL'[39m,
+  [32m'of'[39m,
+  [32m'Angel'[39m,
+  [32m'Mashiro'[39m ]
+
+
+ --------------------------------------------------
+
+ (23:50) Wantedperson:  [ [32m'Angel'[39m, [32m'Mashiro'[39m ]
+
+
+ --------------------------------------------------
+
+ (23:50) I couldn't find that person :v
+
+
+ --------------------------------------------------
+
+ (23:50) (node:16960) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (23:51) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (23:51) Mashiro?
+
+
+ --------------------------------------------------
+
+ (23:51) Jules~?
+
+
+ --------------------------------------------------
+
+ (23:51) Can you get me the avatarURL of Angel Mashiro
+get'[39m,
+  [32m'me'[39m,
+  [32m'the'[39m,
+  [32m'avatarURL'[39m,
+  [32m'of'[39m,
+  [32m'Angel'[39m,
+  [32m'Mashiro'[39m ]
+
+
+ --------------------------------------------------
+
+ (23:51) Wantedperson:  Angel Mashiro
+
+
+ --------------------------------------------------
+
+ (23:51) I couldn't find that person :v
+
+
+ --------------------------------------------------
+
+ (23:54) (node:6612) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (23:54) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (23:54) Mashiroo?
+
+
+ --------------------------------------------------
+
+ (23:54) Jules~?
+
+
+ --------------------------------------------------
+
+ (23:54) Can you get me the avatarURL of Angel Mashiro
+get'[39m,
+  [32m'me'[39m,
+  [32m'the'[39m,
+  [32m'avatarURL'[39m,
+  [32m'of'[39m,
+  [32m'Angel'[39m,
+  [32m'Mashiro'[39m ]
+
+
+ --------------------------------------------------
+
+ (23:54) Wantedperson:  Angel Mashiro
+
+
+ --------------------------------------------------
+
+ (23:54) I couldn't find that person :v
+
+
+ --------------------------------------------------
+
+ (23:54) (node:16828) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (23:54) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (23:54) Mashiroo?
+
+
+ --------------------------------------------------
+
+ (23:54) Jules~?
+
+
+ --------------------------------------------------
+
+ (23:55) [ [32m'Can'[39m,
+  [32m'you'[39m,
+  [32m'get'[39m,
+  [32m'me'[39m,
+  [32m'the'[39m,
+  [32m'avatarURL'[39m,
+  [32m'of'[39m,
+  [32m'angel'[39m,
+  [32m'mashiro?'[39m ]
+
+
+ --------------------------------------------------
+
+ (23:55) Wantedperson:  angel mashiro?
+
+
+ --------------------------------------------------
+
+ (23:55) I couldn't find that person :v
+
+
+ --------------------------------------------------
+
+ (23:55) Mashiroo?
+
+
+ --------------------------------------------------
+
+ (23:55) Jules~?
+
+
+ --------------------------------------------------
+
+ (23:55) Can you get me the avatarURL of angel mashiro
+get'[39m,
+  [32m'me'[39m,
+  [32m'the'[39m,
+  [32m'avatarURL'[39m,
+  [32m'of'[39m,
+  [32m'angel'[39m,
+  [32m'mashiro'[39m ]
+
+
+ --------------------------------------------------
+
+ (23:55) Wantedperson:  angel mashiro
+
+
+ --------------------------------------------------
+
+ (23:55) Here is the avatarURL of angel mashiro: https://cdn.discordapp.com/avatars/174578160334012416/2ae66e6be4afcb8cd62d3878da053941.png?size=2048
+
+
+ --------------------------------------------------
+
+ (23:56) (node:16792) ExperimentalWarning: The fs.promises API is experimental
+
+
+ --------------------------------------------------
+
+ (23:56) Mashiro woke up~
+
+
+ --------------------------------------------------
+
+ (23:56) Mashiroo?
+
+
+ --------------------------------------------------
+
+ (23:56) Jules~?
