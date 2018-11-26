@@ -1,10 +1,5 @@
-process.stdin.on('readable', () => {
-    const chunk = process.stdin.read();
-    if (chunk !== null) {
-      console.log(chunk)
-    }
-  });
-  
-  process.stdin.on('end', () => {
-    console.log('end');
-  });
+const arr = ["lol", "xd"]
+
+const newarr = arr.filter(value => value === "lol")
+
+console.log(newarr);
